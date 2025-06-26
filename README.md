@@ -45,3 +45,80 @@ If eyes remain closed beyond a safe threshold, an alarm is triggered to wake the
 
 ## 📁 Project Structure
 
+
+Driver_Drowsiness_Detection/
+│
+├── media/ # Images & GIFs for README
+├── haarcascade/ # Haar cascade models
+├── model/ # Pretrained CNN model (if used)
+├── main.py # Entry point script
+├── utils.py # EAR calculations, helper methods
+├── alarm.wav # Alert sound
+└── README.md
+
+
+🧪 How It Works
+Eye Aspect Ratio (EAR)
+
+
+
+
+Computes the vertical vs horizontal eye distance
+
+If EAR < threshold for certain frames → eyes are considered closed
+
+
+
+
+🚨 Features
+✅ Real-time eye tracking
+✅ Alarm system when eyes closed too long
+✅ Lightweight — runs on laptops and Raspberry Pi
+✅ Optional CNN model for increased accuracy
+✅ Can be extended with yawning or head-tilt detection
+
+
+
+
+
+🌐 Applications
+Automotive safety systems
+
+Fleet management software
+
+Industrial machine operators
+
+Public transport monitoring
+
+Sleep study research
+
+
+
+
+
+
+📌 Future Enhancements
+Add mobile app integration (Android/iOS)
+
+Use YOLOv8 for improved face/eye detection
+
+Track head nodding or yawning for multi-signal fatigue detection
+
+Add real-time alert dashboard for fleet companies
+
+
+
+
+
+
+👨‍💻 Author
+Crafted with vision and vigilance by ✨ ANURAG SAINI ✨
+
+
+
+
+
+⭐ Support
+IF YOU APPRECIATE MY WORK PLEASE GIVE STAR ⭐
+
+Your support keeps innovation alive and roads safer.
